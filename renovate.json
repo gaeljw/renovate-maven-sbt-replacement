@@ -3,7 +3,8 @@
   "packageRules": [
     {
       "matchDatasources": [
-        "maven"
+        "maven",
+        "sbt-package"
       ],
       "matchPackageNames": [
         "org.scalatestplus:mockito-3-12_3"
@@ -13,7 +14,8 @@
     },
     {
       "matchDatasources": [
-        "maven"
+        "maven",
+        "sbt-package"
       ],
       "matchPackageNames": [
         "org.scalatestplus:mockito-3-12_2.13"
