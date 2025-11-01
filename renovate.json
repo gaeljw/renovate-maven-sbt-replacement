@@ -6,9 +6,9 @@
         "maven"
       ],
       "matchPackageNames": [
-        "mockito-3-12"
+        "org.scalatestplus:mockito-3-12_3"
       ],
-      "replacementName": "mockito-4-11",
+      "replacementName": "org.scalatestplus:mockito-4-11_3",
       "replacementVersion": "3.12.16.0"
     },
     {
@@ -16,19 +16,9 @@
         "maven"
       ],
       "matchPackageNames": [
-        "mockito-3-12_3"
+        "org.scalatestplus:mockito-3-12_2.13"
       ],
-      "replacementName": "mockito-4-11_3",
-      "replacementVersion": "3.12.16.0"
-    },
-    {
-      "matchDatasources": [
-        "maven"
-      ],
-      "matchPackageNames": [
-        "mockito-3-12_2.13"
-      ],
-      "replacementName": "mockito-4-11_2.13",
+      "replacementName": "org.scalatestplus:mockito-4-11_2.13",
       "replacementVersion": "3.12.16.0"
     }
   ]
