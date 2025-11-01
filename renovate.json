@@ -4,7 +4,6 @@
     {
       "matchDatasources": [
         "maven",
-        "sbt-package"
       ],
       "matchPackageNames": [
         "org.scalatestplus:mockito-3-12_3"
@@ -14,13 +13,12 @@
     },
     {
       "matchDatasources": [
-        "maven",
         "sbt-package"
       ],
-      "matchPackageNames": [
-        "org.scalatestplus:mockito-3-12_2.13"
+      "matchDepNames": [
+        "org.scalatestplus:mockito-3-12"
       ],
-      "replacementName": "org.scalatestplus:mockito-4-11_2.13",
+      "replacementName": "org.scalatestplus:mockito-4-11",
       "replacementVersion": "3.12.16.0"
     }
   ]
