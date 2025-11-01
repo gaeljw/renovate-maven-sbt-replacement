@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchDatasources": [
-        "maven",
+        "maven"
       ],
       "matchPackageNames": [
         "org.scalatestplus:mockito-3-12_3"
