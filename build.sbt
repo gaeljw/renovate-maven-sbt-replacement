@@ -4,5 +4,5 @@ scalaVersion := "2.13.17"
 libraryDependencies += "org.scalatestplus" %% "mockito-3-12" % "3.2.10.0"
 
 // Using a shared variable
-val junitVersion = "3.2.18.0"
+val junitVersion = "3.2.19.1"
 libraryDependencies += "org.scalatestplus" %% "junit-4-13" % junitVersion
