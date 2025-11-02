@@ -8,8 +8,8 @@
   <dependencies>
     <dependency>
       <groupId>org.scalatestplus</groupId>
-      <artifactId>mockito-3-12_3</artifactId>
-      <version>3.2.10.0</version>
+      <artifactId>mockito-4-11_3</artifactId>
+      <version>3.12.16.0</version>
     </dependency>
   </dependencies>
 
