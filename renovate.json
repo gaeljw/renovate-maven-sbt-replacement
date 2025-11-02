@@ -3,16 +3,6 @@
   "packageRules": [
     {
       "matchDatasources": [
-        "maven"
-      ],
-      "matchPackageNames": [
-        "org.scalatestplus:mockito-3-12_3"
-      ],
-      "replacementName": "org.scalatestplus:mockito-4-11_3",
-      "replacementVersion": "3.12.16.0"
-    },
-    {
-      "matchDatasources": [
         "sbt-package"
       ],
       "matchDepNames": [
@@ -30,6 +20,16 @@
       ],
       "replacementName": "org.scalatestplus:junit-5-13",
       "replacementVersion": "3.12.19.0"
+    },
+    {
+      "matchDatasources": [
+        "sbt-package"
+      ],
+      "matchDepNames": [
+        "org.scalatestplus:testng-6-7"
+      ],
+      "replacementName": "org.scalatestplus:testng-7-9",
+      "replacementVersion": "3.12.18.0"
     }
   ]
 }
